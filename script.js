@@ -111,3 +111,6 @@ function reasons(){
     document.getElementById("reason").textContent = randomIndex + ": " + randomItem.reason
 }
 
+document.ontouchstart = function(e){ 
+    e.preventDefault(); 
+}
