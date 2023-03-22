@@ -3,7 +3,7 @@
     src: url(PTSans-Regular.ttf);
 }
 
-body{
+html, body{
     font-family: Playfair;
     color: #D8DBE2;
     background-color: #06070E;
@@ -11,13 +11,14 @@ body{
     padding: 0px;
 
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     min-height: 100vh;
+     position: relative;
 }
 
 .t{
