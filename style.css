@@ -9,16 +9,11 @@ html, body{
     background-color: #06070E;
     margin: 0px;
     padding: 0px;
-
-    height: 100%;
-    overflow-x: hidden;
-
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     min-height: 100vh;
-     position: relative;
 }
 
 .t{
@@ -34,7 +29,6 @@ html, body{
     height: 50px;
     font-size: 20px;
 }
-
 
 .h1{
     background-color: transparent;

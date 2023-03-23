@@ -102,7 +102,7 @@ const reasonsArray = [
     {reason: "Ich merke, wie ich Sachen von dir übernehme"},
 ]
 
-let btn = document.getElementById("btn")
+const btn = document.getElementById("btn")
 btn.addEventListener("click", reasons)
 
 function reasons(){
@@ -110,11 +110,6 @@ function reasons(){
     const randomItem = reasonsArray[randomIndex]
     document.getElementById("reason").textContent = randomIndex + ": " + randomItem.reason
 }
-
-document.ontouchstart = function(e){ 
-    e.preventDefault(); 
-}
-
 
 const h1 = document.getElementById("h1")
 h1.addEventListener("click", (_) => {
