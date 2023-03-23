@@ -114,3 +114,11 @@ function reasons(){
 document.ontouchstart = function(e){ 
     e.preventDefault(); 
 }
+
+
+const h1 = document.getElementById("h1")
+h1.addEventListener("click", (_) => {
+    let specificNumber = prompt("Schreib eine nummer die du gerne sehen möchtest:")
+    const specificIndex = reasonsArray[specificNumber]
+    document.getElementById("reason").textContent = specificNumber + ": " + specificIndex.reason
+})
